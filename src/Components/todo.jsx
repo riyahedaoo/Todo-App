@@ -64,7 +64,6 @@ class TodoList extends Component {
     render() { 
         return (
             <>
-            <p className="text"><b>Completed : {this.state.box.filter(e=>e.target.value===true).length}</b></p>
             <ul className="text" style={{listStyleType:"none"}}>
                 {this.props.todos.map((todo,i) => {
                     return( <b><li onDoubleClick={() => {this.deleteTodo(todo,i)}} key={i}>

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@200&family=Neucha&display=swap");
 
 .bg {
-  min-height: 100%;
+  min-height: 100vh;
   height: auto;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   z-index: -1;
 }
@@ -36,6 +36,13 @@
     width: 80vw;
     height: auto;
     left: 10%;
+  }
+  .title {
+    font-size: 8vh;
+  }
+  .icon {
+    width: 8vh;
+    height: 8vh;
   }
 }
 

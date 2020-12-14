@@ -30,7 +30,7 @@ class Todo extends Component {
         return ( 
             <div>
                 <form onSubmit={(e)=>this.addTodo(e)}>
-                <input className="text" value={this.state.text} onChange={(e)=>this.updateTodo(e)} placeholder="Todo"></input>
+                <input className="text" value={this.state.text} onChange={(e)=>this.updateTodo(e)} placeholder="Todo" style={{width:"40vw"}}></input>
                 <button type="submit" className="btn btn-info m-2 add">Click to Add TODO</button>
                 <br/>
                 <p className="delinfo">To delete any todo, just Double Click on it</p>

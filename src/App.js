@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import WhiteBox from "./Components/whitebox";
+import bg from "./Components/Assets/Images/bg.png";
+import "./Components/Assets/style.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {  }
+  render() { 
+    return ( 
+      <div style={{height:"100vh", width:"100vw"}}>
+        <img src={bg} className="bg" alt="" />
+        <WhiteBox />
+      </div>
+     );
+  }
 }
-
+ 
 export default App;

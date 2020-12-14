@@ -42,6 +42,8 @@ class Todo extends Component {
     }
 }
 
+export default Todo;
+
 
 class TodoList extends Component {
     constructor(props){
@@ -74,6 +76,4 @@ class TodoList extends Component {
             </>
          );
     
-}
- 
-export default Todo;
+}}
